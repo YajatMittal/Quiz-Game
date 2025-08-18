@@ -38,4 +38,9 @@ This project was built to practice and strengthen my skills in:
 
 ---
 
+## Try It Out Online
+You can try the Quiz Game live at: [qzgame.vercel.app](https://qzgame.vercel.app)
+
+---
+
 Feel free to use or modify this project for your own learning or portfolio.
