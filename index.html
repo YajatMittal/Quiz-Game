@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="start-screen">
+            <h1 class="header">Quiz Time!</h1>
+            <p class="desc">Test your knowledge with these fun questions</p>
+            <button class="btn" id="start-btn">Start Quiz</button>
+        </div>
+
+        <div class="questions-screen inactive">
+            <!-- Will contain questions... -->
+            <progress max="100" value="0"></progress>
+        </div>
+        <div class="end-screen inactive">
+            <h1 class="header">Quiz Results</h1> 
+            <div class="results-container">
+                <p class="desc">You scored 3 out of 5</p>
+                <h2 class="result-header">Good Effort! Keep Learning!</h2>
+            </div>
+            
+            <button class="btn">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
