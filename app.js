@@ -1,54 +1,97 @@
 // Array containing question objects with properties such as the question, options, and answer
+// const questions = [
+//     {
+//         questionText: "Which is the largest planet in our solar system?",
+//         options: ["Earth", "Mars", "Saturn", "Jupiter", "Neptune"],
+//         answer: "Jupiter"
+//     },
+//     {
+//         questionText: "What is the hardest natural substance on Earth?",
+//         options: ["Gold", "Iron", "Diamond", "Quartz", "Granite"],
+//         answer: "Diamond"
+//     },
+//     {
+//         questionText: "Who was the first person to walk on the Moon?",
+//         options: ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "Michael Collins", "Alan Shepard"],
+//         answer: "Neil Armstrong"
+//     },
+//     {
+//         questionText: "Which element has the chemical symbol 'O'?",
+//         options: ["Osmium", "Oxygen", "Oganesson", "Oxide", "Orpiment"],
+//         answer: "Oxygen"
+//     },
+//     {
+//         questionText: "Which country is known as the Land of the Rising Sun?",
+//         options: ["China", "South Korea", "India", "Japan", "Thailand"],
+//         answer: "Japan"
+//     },
+//     {
+//         questionText: "What is the longest river in the world?",
+//         options: ["Amazon River", "Nile River", "Yangtze River", "Mississippi River", "Congo River"],
+//         answer: "Nile River"
+//     },
+//     {
+//         questionText: "Which programming language is primarily used for web development?",
+//         options: ["Python", "C++", "JavaScript", "Swift", "Go"],
+//         answer: "JavaScript"
+//     },
+//     {
+//         questionText: "Which continent has the most countries?",
+//         options: ["Asia", "Africa", "Europe", "South America", "North America"],
+//         answer: "Africa"
+//     },
+//     {
+//         questionText: "Which instrument is used to measure temperature?",
+//         options: ["Thermometer", "Barometer", "Hygrometer", "Anemometer", "Altimeter"],
+//         answer: "Thermometer"
+//     },
+//     {
+//         questionText: "Who wrote the play 'Romeo and Juliet'?",
+//         options: ["Charles Dickens", "Jane Austen", "William Shakespeare", "Mark Twain", "Leo Tolstoy"],
+//         answer: "William Shakespeare"
+//     }
+// ];
+
 const questions = [
     {
-        questionText: "Which is the largest planet in our solar system?",
-        options: ["Earth", "Mars", "Saturn", "Jupiter", "Neptune"],
-        answer: "Jupiter"
+        questionText: "Who is credited with inventing the practical induction motor?",
+        options: ["Michael Faraday", "Nikola Tesla", "Galileo Ferraris", "Thomas Edison"],
+        answer: "Nikola Tesla"
     },
     {
-        questionText: "What is the hardest natural substance on Earth?",
-        options: ["Gold", "Iron", "Diamond", "Quartz", "Granite"],
-        answer: "Diamond"
+        questionText: "What powers an induction motor?",
+        options: ["Direct Current (DC)", "Alternating Current (AC)", "Battery cells", "Permanent magnets"],
+        answer: "Alternating Current (AC)"
     },
     {
-        questionText: "Who was the first person to walk on the Moon?",
-        options: ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "Michael Collins", "Alan Shepard"],
-        answer: "Neil Armstrong"
+        questionText: "What part of the induction motor rotates?",
+        options: ["Stator", "Shaft", "Rotor", "Fan cover"],
+        answer: "Rotor"
     },
     {
-        questionText: "Which element has the chemical symbol 'O'?",
-        options: ["Osmium", "Oxygen", "Oganesson", "Oxide", "Orpiment"],
-        answer: "Oxygen"
+        questionText: "What is the function of the stator?",
+        options: ["To rotate with the rotor", "To create a rotating magnetic field", "To reduce mechanical friction", "To cool the motor"],
+        answer: "To create a rotating magnetic field"
     },
     {
-        questionText: "Which country is known as the Land of the Rising Sun?",
-        options: ["China", "South Korea", "India", "Japan", "Thailand"],
-        answer: "Japan"
+        questionText: "The principle of induction motors is based on:",
+        options: ["Ohm’s Law", "Electromagnetic Induction", "Fleming’s Right Hand Rule", "Newton’s Law"],
+        answer: "Electromagnetic Induction"
     },
     {
-        questionText: "What is the longest river in the world?",
-        options: ["Amazon River", "Nile River", "Yangtze River", "Mississippi River", "Congo River"],
-        answer: "Nile River"
+        questionText: "What happens to rotor speed compared to synchronous speed?",
+        options: ["Rotor runs faster than synchronous speed", "Rotor runs at synchronous speed", "Rotor runs slightly less than synchronous speed", "Rotor speed is random"],
+        answer: "Rotor runs slightly less than synchronous speed"
     },
     {
-        questionText: "Which programming language is primarily used for web development?",
-        options: ["Python", "C++", "JavaScript", "Swift", "Go"],
-        answer: "JavaScript"
+        questionText: "Which of these is a common application of induction motors?",
+        options: ["Ceiling fans", "Mobile phones", "Microprocessors", "Solar panels"],
+        answer: "Ceiling fans"
     },
     {
-        questionText: "Which continent has the most countries?",
-        options: ["Asia", "Africa", "Europe", "South America", "North America"],
-        answer: "Africa"
-    },
-    {
-        questionText: "Which instrument is used to measure temperature?",
-        options: ["Thermometer", "Barometer", "Hygrometer", "Anemometer", "Altimeter"],
-        answer: "Thermometer"
-    },
-    {
-        questionText: "Who wrote the play 'Romeo and Juliet'?",
-        options: ["Charles Dickens", "Jane Austen", "William Shakespeare", "Mark Twain", "Leo Tolstoy"],
-        answer: "William Shakespeare"
+        questionText: "What are the two main types of induction motors?",
+        options: ["DC & AC Motors", "Single-phase & Three-phase", "Series & Shunt", "Servo & Stepper"],
+        answer: "Single-phase & Three-phase"
     }
 ];
 
